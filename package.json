@@ -6,7 +6,7 @@
     "build": "concurrently npm:build:*",
     "build:webpack": "webpack --mode=production",
     "analyze": "webpack --mode=production --env analyze",
-    "publish-mfe": "lib-publish-mfe --fileName styleguide.js --mfeName styleguide --isParcel",
+    "publish-mfe": "lib-publish-mfe --fileName jw-project-styleguide.js --mfeName styleguide --isParcel",
     "lint": "eslint src --ext js,ts,tsx",
     "format": "prettier --write .",
     "check-format": "prettier --check .",
