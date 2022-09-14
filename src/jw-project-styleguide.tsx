@@ -1,1 +1,1 @@
-import "./global.css?modules=false";
+import "./global.scss";
